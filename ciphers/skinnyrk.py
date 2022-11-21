@@ -6,8 +6,8 @@ Created on Oct 22, 2017
 Revised on Jan 6, 2020 by Hosein Hadipour
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
 
 class SkinnyRKCipher(AbstractCipher):

@@ -4,11 +4,11 @@ Created on Mar 28, 2014
 @author: stefan
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
-from parser.stpcommands import getStringRightRotate as rotr
-from parser.stpcommands import getStringLeftRotate as rotl
+from ..parser.stpcommands import getStringRightRotate as rotr
+from ..parser.stpcommands import getStringLeftRotate as rotl
 
 
 class SpeckCipher(AbstractCipher):

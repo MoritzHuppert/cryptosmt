@@ -4,8 +4,8 @@ Created on Mar 2, 2017
 @author: ralph
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
 class TwineCipher(AbstractCipher):
     """

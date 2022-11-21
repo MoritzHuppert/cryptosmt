@@ -4,8 +4,8 @@ Created on Apr 3, 2014
 @author: stefan
 '''
 
-from parser import parsesolveroutput
-from config import (PATH_STP, PATH_BOOLECTOR, PATH_CRYPTOMINISAT, MAX_WEIGHT,
+from ..parser import parsesolveroutput
+from ..config import (PATH_STP, PATH_BOOLECTOR, PATH_CRYPTOMINISAT, MAX_WEIGHT,
                     MAX_CHARACTERISTICS)
 
 import subprocess

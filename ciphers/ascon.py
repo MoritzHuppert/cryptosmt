@@ -4,11 +4,11 @@ Created on Dec 18, 2015
 @author: stefan
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
-from parser.stpcommands import getStringLeftRotate as rotl
-from parser.stpcommands import getStringRightRotate as rotr
+from ..parser.stpcommands import getStringLeftRotate as rotl
+from ..parser.stpcommands import getStringRightRotate as rotr
 
 
 class AsconCipher(AbstractCipher):

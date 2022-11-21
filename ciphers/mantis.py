@@ -4,8 +4,8 @@ Created on Apr 18, 2017
 @author: ralph, kste
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
 
 class MantisCipher(AbstractCipher):

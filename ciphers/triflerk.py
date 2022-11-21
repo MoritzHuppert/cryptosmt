@@ -4,9 +4,9 @@ Created on May 8, 2019
 @author: hadipour
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
-from parser.stpcommands import getStringRightRotate as rotr
+from ..parser import stpcommands
+from .cipher import AbstractCipher
+from ..parser.stpcommands import getStringRightRotate as rotr
 
 
 class TrifleRK(AbstractCipher):

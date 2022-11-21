@@ -4,8 +4,8 @@ Created on April 24, 2019
 @author: hadipour
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
 class CraftCipher(AbstractCipher):
     """

@@ -4,8 +4,8 @@ Created on May 6, 2019
 @author: hadipour
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
 
 class TrifleCipher(AbstractCipher):

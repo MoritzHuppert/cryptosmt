@@ -4,10 +4,10 @@ Created on Mar 17, 2017
 @author: ralph
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
-from parser.stpcommands import getStringLeftRotate as rotl
+from ..parser.stpcommands import getStringLeftRotate as rotl
 
 class LBlockCipher(AbstractCipher):
     """

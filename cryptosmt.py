@@ -4,12 +4,12 @@ Created on Mar 28, 2014
 @author: stefan
 '''
 
-from cryptanalysis import search
-from ciphers import (simon, speck, simonlinear, keccak, keccakdiff,
+from .cryptanalysis import search
+from .ciphers import (simon, speck, simonlinear, keccak, keccakdiff,
                      siphash, simonrk, chaskeymachalf, simonkeyrc,
                      ketje, ascon, salsa, chacha, skinny, skinnyrk, gimli,
                      present, craft, craftlinear, trifle, trifle, triflerk)
-from config import PATH_STP, PATH_CRYPTOMINISAT, PATH_BOOLECTOR
+from .config import PATH_STP, PATH_CRYPTOMINISAT, PATH_BOOLECTOR
 
 from argparse import ArgumentParser, RawTextHelpFormatter
 

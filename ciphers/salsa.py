@@ -4,10 +4,10 @@ Created on Jan 6, 2016
 @author: stefan
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
-from parser.stpcommands import getStringLeftRotate as rotl
+from ..parser.stpcommands import getStringLeftRotate as rotl
 
 
 class SalsaCipher(AbstractCipher):

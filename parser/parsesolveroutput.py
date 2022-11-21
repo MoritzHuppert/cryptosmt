@@ -4,7 +4,7 @@ Created on Mar 28, 2014
 @author: stefan
 '''
 
-from cryptanalysis import diffchars
+from ..cryptanalysis import diffchars
 import re
 
 

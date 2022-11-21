@@ -4,8 +4,8 @@ Created on Dec 27, 2016
 @author: ralph
 '''
 
-from parser import stpcommands
-from ciphers.cipher import AbstractCipher
+from ..parser import stpcommands
+from .cipher import AbstractCipher
 
 
 class PresentCipher(AbstractCipher):
